@@ -1,0 +1,198 @@
+/* Hero section */
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.heroVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.vidOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+.dexhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroImg{
+    position: relative;
+    top: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.herotext {
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.herotext h1 {
+    font-size: 4rem;
+}
+
+/* Tools section */
+.tools {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.tools h2 {
+    font-size: 2.3rem;
+}
+
+.hometoolsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    /* padding: 2rem; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Load button */
+.load {
+    margin: 20px 0;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: #212121;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.load:hover{
+    cursor: pointer;
+    scale: 1.05;
+
+}
+/* About section */
+.about {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.about h2 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    font-size: 2.3rem;
+}
+
+.about p {
+    width: 80%;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .herotext h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .heroImg {
+        height: 80px;
+        width: 80px;
+    }
+
+    .tools h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        width: 90%;
+        font-size: 1.1rem;
+    }
+
+    .toolsContainer {
+        gap: 30px 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .herotext h1 {
+        font-size: 2.7rem;
+    }
+    .herotext p{
+        font-size: 0.9rem;
+    }
+
+    .heroImg {
+        height: 60px;
+        width: 60px;
+        top: 12px;
+    }
+    .hometoolsContainer{
+        justify-content: center;
+        grid-template-columns: 1fr;
+    }
+    .tools {
+        margin: 20px;
+    }
+
+    .tools h2 {
+        font-size: 1.8rem;
+    }
+
+    .about h2 {
+        font-size: 1.9rem;
+    }
+
+    .about p {
+        width: 95%;
+        font-size: 1rem;
+    }
+
+    .load {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+}
