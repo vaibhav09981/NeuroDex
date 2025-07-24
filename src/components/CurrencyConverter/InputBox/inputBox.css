@@ -1,0 +1,48 @@
+.container {
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-section {
+    width: 33%;
+}
+
+.label-text {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.input-field {
+    outline: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 100%;
+    background-color: transparent;
+    padding: 6px 0;
+    border: none;
+}
+
+.currency-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currency-select {
+    background-color: #212121;
+    color: white;
+    font-weight: bold;
+    width: 90px;
+    font-size: 1.125rem;
+    border-radius: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}

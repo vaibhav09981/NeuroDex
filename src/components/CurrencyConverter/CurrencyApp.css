@@ -1,0 +1,127 @@
+.mainbody {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/Images/cbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.heading {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+}
+
+.formbox {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 28rem;
+    padding: 1.5rem;
+    border: 1px solid rgb(172, 176, 181);
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.formbox:hover {
+    transform: translateY(-4px);
+}
+
+.fromBox,
+.toBox {
+    width: 100%;
+}
+
+.fromBox {
+    margin-bottom: 0.5rem;
+}
+
+.toBox {
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.swapDiv {
+    position: relative;
+    width: 100%;
+    height: 0.125rem;
+    z-index: 10;
+}
+
+.swapDiv button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.5rem;
+    border: 2px solid white;
+    border-radius: 9999px;
+    background-color: #212121;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.swapDiv button img {
+    height: 1.7rem;
+}
+
+.swapDiv button:hover {
+    background-color: #212121;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.convertBtn {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #363535;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.convertBtn:hover {
+    background-color: #212121;
+    transform: scale(1.02);
+}
+
+@media screen and (max-width: 480px) {
+    .mainbody {
+        padding: 1rem;
+    }
+    .heading {
+        font-size: 2rem;
+    }
+    .label-text {
+        font-size: 1rem;
+    }
+}
