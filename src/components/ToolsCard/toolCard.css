@@ -1,0 +1,56 @@
+.toolDiv{
+    -webkit-box-shadow: 0px 0px 45px -9px rgba(28, 28, 28, 0.8);
+    -moz-box-shadow: 0px 0px 45px -9px rgba(28, 29,28, 0.8);
+    box-shadow: 0px 0px 45px -9px rgba(28, 29, 28, 0.8);
+    border-radius:30px;
+}
+
+.toolCard {
+    /* position: absolute; */
+    background-color: white;
+    /* border: 1.4px solid #776fe2; */
+    border: 1.4px solid #212121;
+    width: 100%;
+    border-radius: 30px;
+    /* height: 42vh; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+
+    & .toolImage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    & .toolInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        & h3 {
+            font-size: 1.2rem;
+        }
+
+        & p {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .toolCard{
+        width: 80vw;
+    }
+    
+}
