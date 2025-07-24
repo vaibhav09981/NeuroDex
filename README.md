@@ -67,6 +67,8 @@ Whether you're checking the weather, converting currencies, or managing your tas
 
 ## 🚀 Getting Started
 
+To test this application, visit the live demo: <mcurl name="NeuroDex Live Demo" url="https://neurodex.netlify.app/"></mcurl>
+
 To run the project locally:
 
 1. **Clone the repository**
