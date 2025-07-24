@@ -1,6 +1,6 @@
 import { useState, useRef, useLayoutEffect } from 'react'
 import InputBox from './InputBox/InputBox'
-import useCurrencyInfo from '../../Hooks/CurrencyHook/useCurrencyInfo'
+import useCurrencyInfo from '../../Hooks/useCurrencyInfo'
 import swapIcon from '/assets/Images/swap.svg'
 import './CurrencyApp.css'
 import gsap from 'gsap'
