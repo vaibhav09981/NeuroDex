@@ -91,7 +91,7 @@ function Tools() {
         <div className="loadMore" ref={loadMoreRef}>
           <button className="load" onClick={loadMore}>
             Load More
-          </button>
+          </button>    
         </div>
       )}
       <Outlet />
