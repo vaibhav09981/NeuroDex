@@ -1,77 +1,71 @@
-# 🧠 NeuroDex – Smart Utilities in One Place
+# NeuroDex
 
-**NeuroDex** is a responsive web application that combines a suite of essential everyday tools into a single, smooth, and minimal platform. Designed for speed, simplicity, and cross-device compatibility, it offers users instant access to powerful utilities — all in one place.
+NeuroDex is a responsive web application that combines essential everyday tools into a single platform. Designed for speed and simplicity, it offers users instant access to powerful utilities with a clean interface.
 
----
+## Overview
 
-## 📌 Overview
+NeuroDex provides various tools including weather updates, currency conversion, and more, all in one place. The application is built with modern web technologies for optimal performance across devices.
 
-Whether you're checking the weather, converting currencies, or managing your tasks, NeuroDex streamlines everyday actions into a single clean interface. It's perfect for those who prefer smart design, fast results, and essential tools — without the clutter.
+## Features
 
----
+**Weather App**
+Get real-time weather updates for any city using OpenWeather API.
 
-## ✨ Features
+**Currency Converter**
+Convert values between global currencies with up-to-date exchange rates.
 
-- 🌦 **Weather App**   
-  Get real-time weather updates for any city using OpenWeather API.
+**To-Do App** (Coming Soon)
+Manage daily tasks efficiently.
 
-- 💱 **Currency Converter**   
-  Convert values between global currencies with up-to-date exchange rates.
+## User Interface
 
-- 🔍 **Image Searcher** *(Coming Soon)*   
-  Dynamically search and display images from the web.
+Clean and modern design
+Navigation bar with links to tools
+Fully responsive across devices
+Each tool has its own optimized interface
 
-- 🧮 **Calculator** *(Coming Soon)*   
-  Perform quick and basic arithmetic calculations.
+## Roadmap
 
-- 🔐 **Password Generator** *(Coming Soon)*   
-  Generate strong and customizable passwords for online safety.
+Add more utilities (Unit Converter, Notes App)
+Implement dark mode
+Add persistent storage
+Improve animations
+Enhance accessibility features
 
-- ✅ **To-Do App** *(Coming Soon)*   
-  Manage daily tasks efficiently with a simple task manager.
+## Tech Stack
 
----
+**Frontend**
+HTML
+CSS
+JavaScript
+React.js
 
-## 🖥️ User Interface
+**APIs Used**
+OpenWeatherMap API
+ExchangeRate API
 
-- Clean, modern, and minimal homepage design   
-- Navigation bar with smooth links to tools and sections   
-- Fully responsive design (mobile, tablet, desktop)   
-- Each tool has its own optimized and interactive UI
-
----
-
-## 🚧 Roadmap
-
-- [ ] Add more utilities (Unit Converter, Notes App, etc.)   
-- [ ] Implement dark mode   
-- [ ] Add persistent storage using `localStorage` or backend   
-- [ ] Improve animations and micro-interactions   
-- [ ] Enhance accessibility (ARIA labels, keyboard navigation, etc.)
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:**   
-  - HTML   
-  - CSS   
-  - JavaScript   
-  - React.js
-
-- **APIs Used:**   
-  - `https://openweathermap.org/api`    
-  - `https://www.exchangerate-api.com/`
-
----
-
-## 🚀 Getting Started
-
-To test this application, visit the live demo: <mcurl name="NeuroDex Live Demo" url="https://neurodex.netlify.app/"></mcurl>
+## Getting Started
 
 To run the project locally:
 
-1. **Clone the repository**
-   ```bash
-   git clone `https://github.com/your-username/NeuroDex.git`
-   ```
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/NeuroDex.git
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Run the development server
+```bash
+npm run dev
+```
+
+4. Build for production
+```bash
+npm run build
+```
+
+For testing the application, visit the live demo at https://neurodex.netlify.app
