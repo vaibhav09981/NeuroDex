@@ -2,6 +2,11 @@
   command = "npm run build"
   publish = "dist"
 
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_CONFIG_CACHE = "/tmp/npm_cache"
+  NPM_CONFIG_UPDATE_NOTIFIER = "false"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
