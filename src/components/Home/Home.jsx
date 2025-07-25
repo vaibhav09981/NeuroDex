@@ -114,15 +114,15 @@ function Home() {
         <div className="vidOverlay" />
         <div ref={herotext} className="herotext">
           <div className="dexhead">
-            <h1 ref={heroRef}>DigitalDex <img className='heroImg' src="/assets/Images/gear1.png" alt="gear icon" /></h1>
+            <h1 ref={heroRef}>NeuroDex <img className='heroImg' src="/assets/Images/gear1.png" alt="gear icon" /></h1>
           </div>
           <p ref={tagRef}>Your All-In-One hub for Everyday Tools</p>
         </div>
       </div>
 
       <div className="about">
-        <h2 ref={aboutheadRef}>What Is DigitalDex?</h2>
-        <p ref={abouttextRef}>DigitalDex is a versatile web application that brings together a wide range of essential digital tools in one unified platform. From checking the weather, searching for images, and converting currencies to performing quick calculations, generating secure passwords, and managing tasks with a to-do list, DigitalDex simplifies everyday digital interactions. Designed with a clean and intuitive interface, the platform ensures seamless usability across devices. With plans to expand its toolset and integrate real-time data capabilities, DigitalDex aims to be the go-to hub for productivity, efficiency, and convenience in the digital space.</p>
+        <h2 ref={aboutheadRef}>What Is NeuroDex?</h2>
+        <p ref={abouttextRef}>NeuroDex is a versatile web application that brings together a wide range of essential digital tools in one unified platform. From checking the weather, searching for images, and converting currencies to performing quick calculations, generating secure passwords, and managing tasks with a to-do list, NeuroDex simplifies everyday digital interactions. Designed with a clean and intuitive interface, the platform ensures seamless usability across devices. With plans to expand its toolset and integrate real-time data capabilities, NeuroDex aims to be the go-to hub for productivity, efficiency, and convenience in the digital space.</p>
       </div>
 
       <div className="tools">

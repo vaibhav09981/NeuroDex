@@ -47,7 +47,7 @@ function Navbar() {
     <>
       <nav className='sidebar' ref={sidebarRef}>
         <div className="hamLogo">
-          <h1 ref={logoRef}>DigitalDex</h1>
+          <h1 ref={logoRef}>NeuroDex</h1>
           <img src={cross} alt="" onClick={closeSidebar} style={{ cursor: 'pointer' }} />
         </div>
         <div className="hamLinks">
@@ -67,7 +67,7 @@ function Navbar() {
 
       <nav ref={navRef} className='navbar'>
         <div className="navleft">
-          <h1 ref={logoRef}>DigitalDex</h1>
+          <h1 ref={logoRef}>NeuroDex</h1>
         </div>
 
         <div className="navright">
